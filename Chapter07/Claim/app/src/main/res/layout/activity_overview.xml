@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.packtpub.claim.OverviewActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/grid_spacer1"
+        android:paddingTop="@dimen/grid_spacer1">
+
+        <fragment
+            android:id="@+id/allowance_overview"
+            class="com.packtpub.claim.ui.AllowanceOverviewFragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/claim_items"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/grid_spacer1"
+            android:clipToPadding="false"
+            android:paddingLeft="@dimen/grid_spacer1"
+            android:paddingRight="@dimen/grid_spacer1"
+            app:layoutManager="android.support.v7.widget.LinearLayoutManager" />
+    </LinearLayout>
+
+    <fragment
+        class="com.packtpub.claim.ui.NewClaimItemFloatingActionButtonFragment"
+        android:id="@+id/new_claim_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin" />
+</FrameLayout>

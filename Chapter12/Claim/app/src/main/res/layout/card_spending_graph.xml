@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+        <variable
+            name="item"
+            type="double[]" />
+    </data>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:contentPadding="@dimen/grid_spacer1">
+
+        <com.packtpub.claim.widget.SpendingGraphView
+            android:id="@+id/spendingGraphView"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/spending_graph_height"
+            app:spendingPerDay="@{item}"
+            app:strokeColor="@color/colorAccent"
+            app:strokeWidth="2dp" />
+    </android.support.v7.widget.CardView>
+</layout>

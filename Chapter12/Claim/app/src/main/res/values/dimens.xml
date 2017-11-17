@@ -1,0 +1,8 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="grid_spacer1">8dp</dimen>
+    <dimen name="input_size_amount">100sp</dimen>
+    <dimen name="allowance_overview_label_min_width">50dp</dimen>
+    <dimen name="app_bar_height">180dp</dimen>
+    <dimen name="spending_graph_height">80dp</dimen>
+</resources>
