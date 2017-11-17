@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Claim</string>
+    <string name="action_settings">Settings</string>
+    <string name="label_description">Description</string>
+    <string name="label_amount">Amount</string>
+    <string name="label_date">Date</string>
+    <string name="description_accommodation">Accommodation</string>
+    <string name="description_business">Business</string>
+    <string name="description_entertainment">Entertainment</string>
+    <string name="description_other">Other</string>
+    <string name="description_room_service">Room Service</string>
+    <string name="description_transport">Transport</string>
+</resources>
