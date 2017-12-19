@@ -32,5 +32,3 @@ You'll need to download and install at least Android Studio 3.0. Using Android S
 
 * [Android: Application Development and Design Patterns](https://www.packtpub.com/application-development/android-application-development-and-design-patterns?utm_source=github&utm_medium=repository&utm_campaign=9781788291736)
 
-### Suggestions and Feedback
-[Click here](https://docs.google.com/forms/d/e/1FAIpQLSe5qwunkGf6PUvzPirPDtuy1Du5Rlzew23UBp2S-P3wB-GcwQ/viewform) if you have any feedback or suggestions.
