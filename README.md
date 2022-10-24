@@ -32,3 +32,7 @@ You'll need to download and install at least Android Studio 3.0. Using Android S
 
 * [Android: Application Development and Design Patterns](https://www.packtpub.com/application-development/android-application-development-and-design-patterns?utm_source=github&utm_medium=repository&utm_campaign=9781788291736)
 
+### Download a free PDF
+
+ <i>If you have already purchased a print or Kindle version of this book, you can get a DRM-free PDF version at no cost.<br>Simply click on the link to claim your free PDF.</i>
+<p align="center"> <a href="https://packt.link/free-ebook/9781788475051">https://packt.link/free-ebook/9781788475051 </a> </p>
